@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <nav>
+      <img
+        src="https://static.vecteezy.com/system/resources/previews/000/615/461/original/education-logo-template-vector-illustration-design.jpg"
+        class="logo"
+      />
+      <div class="navigation">
+        <ul>
+          <i id="menu-close" class="fa fa-times"></i>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="About.html">About</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="courses.html">Courses</a></li>
+          <li><a class="active" href="contact.html">Contact</a></li>
+        </ul>
+        <img
+          id="menu-btn"
+          src="https://www.pngitem.com/pimgs/m/30-302949_menu-bar-icon-png-transparent-png.png"
+        />
+      </div>
+    </nav>
+    <section id="about-home">
+      <h2>Contact Us</h2>
+    </section>
+   <section id="contact">
+    <div class="getin">
+        <h2>Get in touch</h2>
+        <p>Looking for help? Fill the form and start a new adventure.</p>
+        <div class="getin-details">
+            <h3>Headquaters</h3>
+            <div> <i class="fa fa-home get"></i>
+                <p>11-25 kothawada Warangal Telangana  506002</p>
+            </div>
+            <h3>Phone</h3>
+            <div> <i class="fa fa-phone get"></i>
+                <p>(+91) 6938527401 <br>
+                    (+91) 7894561203
+                </p>
+            </div>
+            <h3>Support</h3>
+            <div> <i class="fa fa-envelope get"></i>
+                <p>edutech@support.com <br> help@edu.com</p>
+            </div>
+            <h3>Follow us</h3>
+            <div class="pro-links">
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-linkedin"></i>
+                <i class="fa fa-behance"></i>
+              </div>
+        </div>
+    </div>
+    <div class="form">
+        <h4>Let's Connect</h4>
+        <p>Integer at edu learing education in Warangal</p>
+        <div class="form-row">
+           <input type="text" placeholder="your Name">
+           <input type="text" placeholder="Email">
+        </div>
+        <div class="form-col">
+            <input type="text" placeholder="Subject">
+        </div>
+        <div class="form-col">
+            <textarea name= "" id="" cols="30" rows="8" placeholder="How can we help?"></textarea>
+        </div>
+        <div class="form-col">
+           <button>Send Message</button>
+        </div>
+    </div>
+   </section>
+   <section id="map">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d121454.05249611585!2d79.5216693634117!3d17.958294879325702!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a33450bd75e4be7%3A0x9306909c277bc137!2sWarangal%2C%20Telangana!5e0!3m2!1sen!2sin!4v1711431329392!5m2!1sen!2sin"  style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+   </section>
+    <footer>
+      <div class="footer-col">
+        <h3>Top Products</h3>
+        <li>Manage Reputation</li>
+        <li>power tools</li>
+        <li>Managed website</li>
+        <li>Marketing Services</li>
+      </div>
+      <div class="footer-col">
+        <h3>Top Products</h3>
+        <li>Manage Reputation</li>
+        <li>power tools</li>
+        <li>Managed website</li>
+        <li>Marketing Services</li>
+      </div>
+      <div class="footer-col">
+        <h3>Top Products</h3>
+        <li>Manage Reputation</li>
+        <li>power tools</li>
+        <li>Managed website</li>
+        <li>Marketing Services</li>
+      </div>
+      <div class="footer-col">
+        <h3>Top Products</h3>
+        <li>Manage Reputation</li>
+        <li>power tools</li>
+        <li>Managed website</li>
+        <li>Marketing Services</li>
+      </div>
+      <div class="footer-col">
+        <h3>Newsletter</h3>
+        <p>You can trust us. We only send promo Offers</p>
+        <div class="subscribe">
+          <input type="text" placeholder="Your Email" />
+        </div>
+        <div class="subscribe"><a href="#" class="yellow">SUBSCRIBE</a></div>
+      </div>
+      <div class="copyright">
+        <p>
+          copyright ©2023 All rights reserved | This template is made by Edu
+        </p>
+        <div class="pro-links">
+          <i class="fa fa-facebook"></i>
+          <i class="fa fa-instagram"></i>
+          <i class="fa fa-linkedin"></i>
+        </div>
+      </div>
+    </footer>
+    <script>
+      $('#menu-btn').click(function(){
+        $(' nav .navigation ul').addClass('active')
+      });
+      $('#menu-close').click(function(){
+        $(' nav .navigation ul').removeClass('active')
+      });
+    </script>
+  </body>
+</html>
